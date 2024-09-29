@@ -1,0 +1,90 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.table{
+ margin:0 auto;
+width:1200px;
+border-bottom:1px solid #000;
+}
+
+.table_row{
+display:flex;
+border:1px solid #000;
+border-bottom:none;
+}
+.table_head{
+text-align:center;
+padding:10px;
+border-right:1px solid #000;
+}
+.table_head:last-child{
+border:none;
+}
+.table_colomn{
+  width:400px;
+  text-align:center;
+  border-right:1px solid #000
+  }
+.table_colomn:first-child{
+width:100px;
+display:flex;
+flex-direction:column;
+}
+.table_colomn:nth-child(2){
+text-align:left;
+width:300px;
+}
+.table_colomn:last-child{
+border:none;
+}
+.table_data{
+margin:auto 0;
+padding:10px;
+border-bottom:1px solid #000;
+}
+.table_data:last-child{
+border:none;
+}
+.table_tfoot:last-child{
+border-right:1px solid #000;
+}
+
+li{
+    display:block;
+    text-indent:12px;
+    }
+    li samp{
+    display:block;
+    text-indent:12px;
+    font-family:initial;
+    }
+
+    p{
+        display:block;
+        text-indent:20px;
+        }
+        p samp{
+        display:block;
+        text-indent:10px;
+        font-family:initial;
+        }
+
+        .link {
+            color: #0000FF;
+          }
+          
+          .link:hover {
+            color: #DC143C;
+          }
+          
+          p.date{
+            text-align:right;
+        }
+          p.main{
+            text-align:justify;
+        }
+          p{
+            text-indent:30px;
+        }
